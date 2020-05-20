@@ -6,6 +6,10 @@ import { AppComponent } from './app.component';
 import { HamburgerComponent } from './shared/hamburger/hamburger.component';
 import { ProfileComponent } from './profile/profile.component';
 import { CreateGroupComponent } from './creategroup/create-group.component';
+import { AllTeamComponent } from './all-team/all-team.component';
+import { LoginComponent } from './login/login.component';
+import { RegisterComponent } from './register/register.component';
+
 
 
 @NgModule({
@@ -14,6 +18,10 @@ import { CreateGroupComponent } from './creategroup/create-group.component';
     HamburgerComponent,
     ProfileComponent,
     CreateGroupComponent,
+    AllTeamComponent,
+    LoginComponent,
+    RegisterComponent,
+    
     
     
   ],
